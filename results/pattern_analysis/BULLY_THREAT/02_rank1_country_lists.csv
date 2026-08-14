@@ -1,0 +1,13 @@
+Predictor,Countries_list
+BELONG,"['ALB', 'AUS', 'BEL', 'BRA', 'CAN', 'CRI', 'CZE', 'DNK', 'EST', 'FIN', 'FRA', 'GBR', 'HKG', 'HRV', 'HUN', 'IRL', 'ISL', 'JPN', 'KOR', 'KSV', 'LUX', 'MDA', 'NLD', 'NOR', 'NZL', 'QAZ', 'QCI', 'QRT', 'ROU', 'RUS', 'SGP', 'SWE', 'TAP']"
+EMOSUPS,"['BGR', 'BLR', 'CHL', 'MEX', 'MNE', 'PER', 'SVN']"
+PERCOMP,['PAN']
+PERCOOP,['DOM']
+PV1READ,"['COL', 'IDN', 'LTU', 'LVA', 'MAC', 'MYS', 'PHL', 'THA', 'USA']"
+REPEAT,['PRT']
+ST004D01T,"['ARE', 'JOR', 'KAZ', 'MLT', 'QAT', 'QMR', 'SAU', 'TUR', 'UKR', 'VNM']"
+ST206Q01HA,['POL']
+ST207Q01HA,"['GEO', 'ITA', 'MAR']"
+ST207Q02HA,"['ARG', 'BIH', 'ESP', 'GRC', 'SRB', 'SVK', 'URY']"
+ST207Q03HA,"['AUT', 'CHE', 'DEU']"
+ST207Q05HA,['BRN']

@@ -1,0 +1,6 @@
+DV: BULLY_THREAT
+Distance: Spearman footrule over full predictor rankings (L1 over ranks).
+k chosen by silhouette in [2..10]: k*=2, silhouette=0.023
+Medoids: QRT, SRB
+Cluster 0 (n=44): ARE, ARG, BEL, BGR, BLR, BRN, COL, CZE, DEU, DNK, FIN, GBR, GEO, GRC, HKG, HRV, HUN, IDN, IRL, JOR, JPN, KAZ, KOR, LTU, MEX, MYS, NLD, NOR, PER, PHL, POL, PRT, QAT, QAZ, QCI, QRT, ROU, RUS, SGP, SVK, SVN, SWE, THA, TUR
+Cluster 1 (n=33): ALB, AUS, AUT, BIH, BRA, CAN, CHE, CHL, CRI, DOM, ESP, EST, FRA, ISL, ITA, KSV, LUX, LVA, MAC, MAR, MDA, MLT, MNE, NZL, PAN, QMR, SAU, SRB, TAP, UKR, URY, USA, VNM

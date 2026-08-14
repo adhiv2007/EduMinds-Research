@@ -1,0 +1,6 @@
+DV: BULLY_PHYSICAL
+Distance: Spearman footrule over full predictor rankings (L1 over ranks).
+k chosen by silhouette in [2..10]: k*=2, silhouette=0.024
+Medoids: BIH, COL
+Cluster 0 (n=42): ALB, ARG, AUT, BIH, BRN, CAN, CHL, CRI, CZE, DEU, EST, FIN, GBR, GEO, GRC, HKG, IRL, ISL, JOR, JPN, KAZ, KOR, KSV, LUX, MAR, MLT, MNE, MYS, NZL, PAN, PHL, PRT, QAT, QAZ, QMR, QRT, ROU, SAU, SVK, SWE, TUR, UKR
+Cluster 1 (n=35): ARE, AUS, BEL, BGR, BLR, BRA, CHE, COL, DNK, DOM, ESP, FRA, HRV, HUN, IDN, ITA, LTU, LVA, MAC, MDA, MEX, NLD, NOR, PER, POL, QCI, RUS, SGP, SRB, SVN, TAP, THA, URY, USA, VNM

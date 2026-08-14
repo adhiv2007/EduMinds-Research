@@ -1,0 +1,7 @@
+DV: BEINGBULLIED
+Distance: Spearman footrule over full predictor rankings (L1 over ranks).
+k chosen by silhouette in [2..10]: k*=3, silhouette=0.028
+Medoids: FIN, LTU, SVN
+Cluster 0 (n=13): AUS, CRI, DNK, FIN, FRA, GBR, ISL, MLT, POL, PRT, QCI, SWE, USA
+Cluster 1 (n=30): ARG, BGR, BLR, CHE, CHL, COL, CZE, DOM, ESP, GRC, HKG, ITA, JOR, JPN, KAZ, KSV, LTU, MAC, MAR, MEX, MYS, NOR, PAN, QAT, QMR, ROU, SAU, SVK, UKR, VNM
+Cluster 2 (n=33): ALB, ARE, AUT, BEL, BIH, BRA, BRN, CAN, DEU, EST, GEO, HRV, HUN, IDN, IRL, LUX, LVA, MDA, MNE, NLD, NZL, PER, PHL, QAZ, QRT, RUS, SGP, SRB, SVN, TAP, THA, TUR, URY

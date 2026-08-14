@@ -1,0 +1,41 @@
+Predictor,Countries_list
+AGE,['TAP']
+ATTLNACT,"['ALB', 'GEO', 'KSV', 'LUX']"
+BELONG,"['ALB', 'ARE', 'ARG', 'AUS', 'AUT', 'BEL', 'BGR', 'BIH', 'BLR', 'BRA', 'CAN', 'CHE', 'CHL', 'COL', 'CRI', 'CZE', 'DEU', 'DNK', 'DOM', 'ESP', 'EST', 'FIN', 'FRA', 'GBR', 'GEO', 'GRC', 'HKG', 'HRV', 'HUN', 'IDN', 'IRL', 'ISL', 'ITA', 'JOR', 'JPN', 'KAZ', 'KOR', 'KSV', 'LTU', 'LUX', 'LVA', 'MAC', 'MAR', 'MDA', 'MEX', 'MLT', 'MNE', 'MYS', 'NLD', 'NOR', 'NZL', 'PAN', 'PER', 'POL', 'PRT', 'QAT', 'QAZ', 'QCI', 'QMR', 'QRT', 'ROU', 'RUS', 'SAU', 'SGP', 'SRB', 'SVK', 'SVN', 'SWE', 'TAP', 'THA', 'TUR', 'UKR', 'URY', 'USA', 'VNM']"
+BSMJ,['QMR']
+COMPETE,"['CAN', 'EST', 'NLD', 'NOR', 'SGP', 'SWE']"
+DISCLIMA,"['ARE', 'AUS', 'AUT', 'BEL', 'BIH', 'BLR', 'CAN', 'COL', 'CRI', 'CZE', 'EST', 'GBR', 'GEO', 'HKG', 'HUN', 'IDN', 'JPN', 'KOR', 'LTU', 'LUX', 'LVA', 'MAC', 'MDA', 'MEX', 'MLT', 'MNE', 'MYS', 'NLD', 'NOR', 'NZL', 'POL', 'QCI', 'QMR', 'ROU', 'RUS', 'SAU', 'SGP', 'SVK', 'SWE', 'TAP', 'THA', 'TUR', 'UKR', 'URY', 'USA', 'VNM']"
+DURECEC,"['NOR', 'POL']"
+EDUSHORT,['MAC']
+EMOSUPS,"['ARG', 'AUS', 'AUT', 'BEL', 'BGR', 'BIH', 'BLR', 'BRA', 'BRN', 'CHE', 'CHL', 'COL', 'CRI', 'CZE', 'DEU', 'DNK', 'DOM', 'ESP', 'EST', 'GRC', 'HKG', 'HRV', 'HUN', 'IRL', 'ITA', 'JOR', 'JPN', 'KAZ', 'KSV', 'LTU', 'LVA', 'MAR', 'MDA', 'MEX', 'MLT', 'MNE', 'NLD', 'NOR', 'PAN', 'PER', 'PHL', 'POL', 'PRT', 'QAZ', 'QMR', 'QRT', 'ROU', 'RUS', 'SAU', 'SGP', 'SRB', 'SVK', 'SVN', 'TAP', 'TUR', 'UKR', 'URY', 'USA']"
+EUDMO,['USA']
+GFOFAIL,"['ALB', 'ARE', 'BIH', 'BLR', 'CAN', 'CRI', 'CZE', 'ESP', 'EST', 'FIN', 'FRA', 'GBR', 'GEO', 'GRC', 'HKG', 'HUN', 'IRL', 'ISL', 'JOR', 'JPN', 'KOR', 'LUX', 'MAC', 'MEX', 'MNE', 'MYS', 'NLD', 'PAN', 'PER', 'PRT', 'QAT', 'QAZ', 'QMR', 'QRT', 'ROU', 'RUS', 'SAU', 'SRB', 'SVK', 'SWE', 'TUR', 'USA', 'VNM']"
+GRADE,"['HRV', 'IDN', 'KOR', 'SVK', 'TAP']"
+JOYREAD,"['ALB', 'JPN', 'KSV', 'QRT']"
+MASTGOAL,"['GEO', 'LVA', 'NLD']"
+METASPAM,['JPN']
+METASUM,"['HKG', 'ITA', 'KOR', 'PRT']"
+PERCOMP,"['ARG', 'AUS', 'AUT', 'BEL', 'BGR', 'BLR', 'BRA', 'BRN', 'CHE', 'CHL', 'COL', 'CRI', 'CZE', 'DEU', 'DNK', 'DOM', 'ESP', 'EST', 'FRA', 'GBR', 'GEO', 'GRC', 'HRV', 'HUN', 'IDN', 'IRL', 'ISL', 'ITA', 'JOR', 'JPN', 'KAZ', 'KSV', 'LTU', 'LUX', 'LVA', 'MAR', 'MEX', 'MLT', 'MNE', 'MYS', 'NLD', 'NOR', 'NZL', 'PAN', 'PER', 'PHL', 'POL', 'PRT', 'QAT', 'QAZ', 'QCI', 'QMR', 'QRT', 'ROU', 'RUS', 'SRB', 'SVK', 'SVN', 'SWE', 'THA', 'UKR', 'URY', 'USA', 'VNM']"
+PERCOOP,"['ARE', 'ARG', 'AUS', 'AUT', 'BEL', 'BGR', 'BIH', 'BLR', 'BRA', 'BRN', 'CHE', 'CHL', 'COL', 'CZE', 'DEU', 'DNK', 'DOM', 'ESP', 'FIN', 'FRA', 'GEO', 'GRC', 'IRL', 'ITA', 'KAZ', 'LTU', 'MAR', 'MDA', 'MEX', 'MYS', 'NZL', 'PAN', 'PER', 'PHL', 'PRT', 'QAZ', 'QCI', 'ROU', 'RUS', 'SAU', 'SGP', 'SRB', 'SVN', 'SWE', 'TUR', 'UKR']"
+PV1MATH,"['ALB', 'JPN', 'THA']"
+PV1READ,"['BRN', 'HUN', 'JOR', 'KAZ', 'LTU', 'MAC', 'MAR', 'PHL', 'POL', 'ROU', 'THA']"
+PV1SCIE,"['KOR', 'MAC']"
+RATCMP2,"['BEL', 'QAT', 'VNM']"
+REPEAT,"['LUX', 'MAC', 'PRT', 'VNM']"
+RESILIENCE,"['IDN', 'PHL', 'RUS', 'SGP']"
+SCREADCOMP,['JPN']
+SCREADDIFF,"['JOR', 'MEX', 'MNE', 'PHL', 'QAZ', 'SGP', 'UKR']"
+ST004D01T,"['ALB', 'ARE', 'ARG', 'AUS', 'BEL', 'BGR', 'BIH', 'BRA', 'BRN', 'CAN', 'CHL', 'COL', 'CZE', 'DNK', 'ESP', 'EST', 'FIN', 'GBR', 'GRC', 'HKG', 'HRV', 'HUN', 'IDN', 'IRL', 'ITA', 'JOR', 'JPN', 'KAZ', 'KOR', 'KSV', 'LTU', 'LUX', 'MAC', 'MLT', 'MNE', 'MYS', 'NLD', 'NOR', 'NZL', 'PHL', 'POL', 'QAT', 'QAZ', 'QCI', 'QRT', 'ROU', 'RUS', 'SAU', 'SGP', 'SRB', 'SVN', 'SWE', 'TAP', 'THA', 'TUR', 'USA', 'VNM']"
+ST184Q01HA,"['IDN', 'KSV', 'NLD', 'SVK', 'UKR']"
+ST185Q01HA,"['FIN', 'FRA', 'GBR', 'GEO', 'HKG', 'ISL', 'USA']"
+ST206Q01HA,"['ALB', 'ARG', 'AUT', 'BGR', 'BLR', 'BRA', 'BRN', 'CHE', 'CHL', 'COL', 'CZE', 'DEU', 'DNK', 'DOM', 'ESP', 'GRC', 'HUN', 'IRL', 'ISL', 'LTU', 'MAC', 'MAR', 'MDA', 'MLT', 'MYS', 'NOR', 'NZL', 'PAN', 'PER', 'PRT', 'QCI', 'SAU', 'SRB', 'SVN', 'TAP', 'TUR', 'UKR', 'URY']"
+ST207Q01HA,"['ALB', 'ARE', 'ARG', 'AUS', 'AUT', 'BGR', 'BIH', 'BLR', 'BRA', 'CAN', 'CHE', 'CHL', 'COL', 'CRI', 'CZE', 'DEU', 'DNK', 'DOM', 'ESP', 'EST', 'FIN', 'FRA', 'GBR', 'GRC', 'HRV', 'HUN', 'IDN', 'IRL', 'ISL', 'ITA', 'JOR', 'KAZ', 'KSV', 'LTU', 'LUX', 'LVA', 'MAC', 'MAR', 'MDA', 'MLT', 'MYS', 'PAN', 'POL', 'QAT', 'QAZ', 'QCI', 'QMR', 'QRT', 'ROU', 'RUS', 'SAU', 'SGP', 'SRB', 'SVK', 'SVN', 'SWE', 'TAP', 'THA', 'TUR', 'URY', 'USA', 'VNM']"
+ST207Q02HA,"['ARE', 'ARG', 'AUS', 'AUT', 'BEL', 'BGR', 'BIH', 'BLR', 'BRA', 'BRN', 'CAN', 'CHE', 'CHL', 'DEU', 'DNK', 'DOM', 'ESP', 'EST', 'FIN', 'FRA', 'GBR', 'GEO', 'HKG', 'HRV', 'HUN', 'IDN', 'IRL', 'ISL', 'ITA', 'JOR', 'KOR', 'KSV', 'LTU', 'LVA', 'MAR', 'MDA', 'MEX', 'MYS', 'NLD', 'NZL', 'PAN', 'PER', 'PHL', 'PRT', 'QAT', 'QAZ', 'QCI', 'QMR', 'QRT', 'RUS', 'SAU', 'SGP', 'SVK', 'SVN', 'TAP', 'THA', 'URY', 'USA']"
+ST207Q03HA,"['ALB', 'ARE', 'AUS', 'AUT', 'BRN', 'CAN', 'CHE', 'CHL', 'CRI', 'DEU', 'DNK', 'DOM', 'ESP', 'FIN', 'FRA', 'GRC', 'HRV', 'IDN', 'ISL', 'ITA', 'JOR', 'KAZ', 'KSV', 'LUX', 'LVA', 'MAR', 'MEX', 'MLT', 'NZL', 'PER', 'PHL', 'POL', 'QAZ', 'QRT', 'SRB', 'SVK', 'THA', 'URY']"
+ST207Q04HA,"['ALB', 'ARE', 'ARG', 'AUS', 'BEL', 'BGR', 'BIH', 'BRA', 'BRN', 'CHE', 'COL', 'CRI', 'DEU', 'DOM', 'FRA', 'GBR', 'GEO', 'IRL', 'KAZ', 'KOR', 'LVA', 'MAR', 'MDA', 'MLT', 'MNE', 'NOR', 'NZL', 'PAN', 'PER', 'QAT', 'QMR', 'SAU', 'SVN', 'TUR', 'UKR', 'URY', 'VNM']"
+ST207Q05HA,"['ARE', 'ARG', 'AUT', 'BEL', 'BGR', 'BRN', 'CAN', 'CHE', 'CHL', 'COL', 'DEU', 'DOM', 'FIN', 'FRA', 'GBR', 'GRC', 'HRV', 'ISL', 'ITA', 'KAZ', 'KOR', 'MDA', 'MEX', 'MLT', 'MNE', 'MYS', 'NZL', 'PAN', 'PHL', 'QAT', 'QCI', 'QRT', 'ROU', 'SRB', 'SVN', 'SWE', 'TAP', 'THA', 'TUR', 'UKR', 'URY', 'VNM']"
+SWBP,"['BIH', 'BLR', 'BRA', 'CAN', 'CRI', 'CZE', 'DNK', 'FIN', 'HKG', 'HRV', 'ISL', 'LUX', 'LVA', 'MDA', 'MNE', 'PER', 'POL', 'PRT', 'QAT', 'QCI', 'SWE']"
+TEACHINT,"['CRI', 'EST']"
+TEACHSUP,['NOR']
+UNDREM,['QMR']
+WORKMAST,['HKG']
