@@ -1,0 +1,7 @@
+Finding,Value
+First 3 PCA components cumulative variance range,0.485–0.651
+Components required for 80% variance range,6–8
+Strongest cross-outcome distance-structure agreement,BEINGBULLIED vs BULLY_VERBAL (rho=0.628)
+Closest international outcome centers,BULLY_THREAT vs BULLY_PHYSICAL (Aitchison=0.348)
+Macro tests surviving FDR,24/40
+Extended-context tests surviving FDR,0/6

@@ -1,0 +1,131 @@
+Profile,Outcome,MacroVariable,Group1,Group2,CenterAitchisonDistance
+Full14,BEINGBULLIED,IncomeGroup_FY2019,High,Lower-middle,0.7549809152929613
+Full14,BEINGBULLIED,IncomeGroup_FY2019,High,Upper-middle,0.3646586324616269
+Full14,BEINGBULLIED,IncomeGroup_FY2019,Lower-middle,Upper-middle,0.5673673038695848
+Full14,BEINGBULLIED,WB_Region,East Asia & Pacific,Europe & Central Asia,0.6772352447336253
+Full14,BEINGBULLIED,WB_Region,East Asia & Pacific,Latin America & Caribbean ,0.7309672123543401
+Full14,BEINGBULLIED,WB_Region,East Asia & Pacific,"Middle East, North Africa, Afghanistan & Pakistan",0.9331300990313676
+Full14,BEINGBULLIED,WB_Region,East Asia & Pacific,North America,0.9698504696233152
+Full14,BEINGBULLIED,WB_Region,Europe & Central Asia,Latin America & Caribbean ,0.3405172186190945
+Full14,BEINGBULLIED,WB_Region,Europe & Central Asia,"Middle East, North Africa, Afghanistan & Pakistan",0.8197980063227726
+Full14,BEINGBULLIED,WB_Region,Europe & Central Asia,North America,0.5853144634445602
+Full14,BEINGBULLIED,WB_Region,Latin America & Caribbean ,"Middle East, North Africa, Afghanistan & Pakistan",0.9320973546262854
+Full14,BEINGBULLIED,WB_Region,Latin America & Caribbean ,North America,0.7183183110005112
+Full14,BEINGBULLIED,WB_Region,"Middle East, North Africa, Afghanistan & Pakistan",North America,1.196029730872513
+Full14,BULLY_VERBAL,IncomeGroup_FY2019,High,Lower-middle,0.8136558773630819
+Full14,BULLY_VERBAL,IncomeGroup_FY2019,High,Upper-middle,0.3128315784910156
+Full14,BULLY_VERBAL,IncomeGroup_FY2019,Lower-middle,Upper-middle,0.7369535207014947
+Full14,BULLY_VERBAL,WB_Region,East Asia & Pacific,Europe & Central Asia,0.8169581153549611
+Full14,BULLY_VERBAL,WB_Region,East Asia & Pacific,Latin America & Caribbean ,1.0822071680860628
+Full14,BULLY_VERBAL,WB_Region,East Asia & Pacific,"Middle East, North Africa, Afghanistan & Pakistan",0.6475930386195211
+Full14,BULLY_VERBAL,WB_Region,East Asia & Pacific,North America,0.9701822273255346
+Full14,BULLY_VERBAL,WB_Region,Europe & Central Asia,Latin America & Caribbean ,0.4788999829221046
+Full14,BULLY_VERBAL,WB_Region,Europe & Central Asia,"Middle East, North Africa, Afghanistan & Pakistan",0.7978170645524818
+Full14,BULLY_VERBAL,WB_Region,Europe & Central Asia,North America,0.6351890169060929
+Full14,BULLY_VERBAL,WB_Region,Latin America & Caribbean ,"Middle East, North Africa, Afghanistan & Pakistan",1.1384235625995975
+Full14,BULLY_VERBAL,WB_Region,Latin America & Caribbean ,North America,0.8740012377403523
+Full14,BULLY_VERBAL,WB_Region,"Middle East, North Africa, Afghanistan & Pakistan",North America,1.0670559045092574
+Full14,BULLY_THREAT,IncomeGroup_FY2019,High,Lower-middle,0.5969679098756284
+Full14,BULLY_THREAT,IncomeGroup_FY2019,High,Upper-middle,0.39177709477758227
+Full14,BULLY_THREAT,IncomeGroup_FY2019,Lower-middle,Upper-middle,0.5152435057323409
+Full14,BULLY_THREAT,WB_Region,East Asia & Pacific,Europe & Central Asia,0.44705120755635624
+Full14,BULLY_THREAT,WB_Region,East Asia & Pacific,Latin America & Caribbean ,0.7610037208717509
+Full14,BULLY_THREAT,WB_Region,East Asia & Pacific,"Middle East, North Africa, Afghanistan & Pakistan",0.8272160026912357
+Full14,BULLY_THREAT,WB_Region,East Asia & Pacific,North America,0.7492437708713288
+Full14,BULLY_THREAT,WB_Region,Europe & Central Asia,Latin America & Caribbean ,0.5789526861175074
+Full14,BULLY_THREAT,WB_Region,Europe & Central Asia,"Middle East, North Africa, Afghanistan & Pakistan",0.849198391716918
+Full14,BULLY_THREAT,WB_Region,Europe & Central Asia,North America,0.5832517314041263
+Full14,BULLY_THREAT,WB_Region,Latin America & Caribbean ,"Middle East, North Africa, Afghanistan & Pakistan",1.0896913655295961
+Full14,BULLY_THREAT,WB_Region,Latin America & Caribbean ,North America,0.8543087222891217
+Full14,BULLY_THREAT,WB_Region,"Middle East, North Africa, Afghanistan & Pakistan",North America,1.0435685392289864
+Full14,BULLY_PHYSICAL,IncomeGroup_FY2019,High,Lower-middle,0.787577859706249
+Full14,BULLY_PHYSICAL,IncomeGroup_FY2019,High,Upper-middle,0.3943024783833845
+Full14,BULLY_PHYSICAL,IncomeGroup_FY2019,Lower-middle,Upper-middle,0.7453375688641933
+Full14,BULLY_PHYSICAL,WB_Region,East Asia & Pacific,Europe & Central Asia,0.49717297709096586
+Full14,BULLY_PHYSICAL,WB_Region,East Asia & Pacific,Latin America & Caribbean ,0.7585753313539447
+Full14,BULLY_PHYSICAL,WB_Region,East Asia & Pacific,"Middle East, North Africa, Afghanistan & Pakistan",0.9922827282206921
+Full14,BULLY_PHYSICAL,WB_Region,East Asia & Pacific,North America,0.7770935062472898
+Full14,BULLY_PHYSICAL,WB_Region,Europe & Central Asia,Latin America & Caribbean ,0.6019752436410095
+Full14,BULLY_PHYSICAL,WB_Region,Europe & Central Asia,"Middle East, North Africa, Afghanistan & Pakistan",0.9004326326396729
+Full14,BULLY_PHYSICAL,WB_Region,Europe & Central Asia,North America,0.619593974299588
+Full14,BULLY_PHYSICAL,WB_Region,Latin America & Caribbean ,"Middle East, North Africa, Afghanistan & Pakistan",1.040131668236389
+Full14,BULLY_PHYSICAL,WB_Region,Latin America & Caribbean ,North America,0.9636615945222953
+Full14,BULLY_PHYSICAL,WB_Region,"Middle East, North Africa, Afghanistan & Pakistan",North America,1.0045915039927829
+Full14,BULLY_RELATIONAL,IncomeGroup_FY2019,High,Lower-middle,0.8518089233771212
+Full14,BULLY_RELATIONAL,IncomeGroup_FY2019,High,Upper-middle,0.463598173300131
+Full14,BULLY_RELATIONAL,IncomeGroup_FY2019,Lower-middle,Upper-middle,0.5412302359311403
+Full14,BULLY_RELATIONAL,WB_Region,East Asia & Pacific,Europe & Central Asia,0.8793920056604058
+Full14,BULLY_RELATIONAL,WB_Region,East Asia & Pacific,Latin America & Caribbean ,0.969294351420998
+Full14,BULLY_RELATIONAL,WB_Region,East Asia & Pacific,"Middle East, North Africa, Afghanistan & Pakistan",1.0328499041562929
+Full14,BULLY_RELATIONAL,WB_Region,East Asia & Pacific,North America,0.8081820355046614
+Full14,BULLY_RELATIONAL,WB_Region,Europe & Central Asia,Latin America & Caribbean ,0.35761317762969513
+Full14,BULLY_RELATIONAL,WB_Region,Europe & Central Asia,"Middle East, North Africa, Afghanistan & Pakistan",1.568939124554483
+Full14,BULLY_RELATIONAL,WB_Region,Europe & Central Asia,North America,1.0282540885975489
+Full14,BULLY_RELATIONAL,WB_Region,Latin America & Caribbean ,"Middle East, North Africa, Afghanistan & Pakistan",1.646516463643444
+Full14,BULLY_RELATIONAL,WB_Region,Latin America & Caribbean ,North America,1.1841702686016917
+Full14,BULLY_RELATIONAL,WB_Region,"Middle East, North Africa, Afghanistan & Pakistan",North America,1.4962645334987574
+NoBELONG13,BEINGBULLIED,IncomeGroup_FY2019,High,Lower-middle,0.5771230507363135
+NoBELONG13,BEINGBULLIED,IncomeGroup_FY2019,High,Upper-middle,0.29852472000638575
+NoBELONG13,BEINGBULLIED,IncomeGroup_FY2019,Lower-middle,Upper-middle,0.4949715468132382
+NoBELONG13,BEINGBULLIED,WB_Region,East Asia & Pacific,Europe & Central Asia,0.6375811541073603
+NoBELONG13,BEINGBULLIED,WB_Region,East Asia & Pacific,Latin America & Caribbean ,0.7285434880742105
+NoBELONG13,BEINGBULLIED,WB_Region,East Asia & Pacific,"Middle East, North Africa, Afghanistan & Pakistan",0.916145902819741
+NoBELONG13,BEINGBULLIED,WB_Region,East Asia & Pacific,North America,0.7909875673326371
+NoBELONG13,BEINGBULLIED,WB_Region,Europe & Central Asia,Latin America & Caribbean ,0.29569926258194396
+NoBELONG13,BEINGBULLIED,WB_Region,Europe & Central Asia,"Middle East, North Africa, Afghanistan & Pakistan",0.818203063411841
+NoBELONG13,BEINGBULLIED,WB_Region,Europe & Central Asia,North America,0.48144933374309257
+NoBELONG13,BEINGBULLIED,WB_Region,Latin America & Caribbean ,"Middle East, North Africa, Afghanistan & Pakistan",0.92463015298844
+NoBELONG13,BEINGBULLIED,WB_Region,Latin America & Caribbean ,North America,0.514054352623073
+NoBELONG13,BEINGBULLIED,WB_Region,"Middle East, North Africa, Afghanistan & Pakistan",North America,1.1327169310489777
+NoBELONG13,BULLY_VERBAL,IncomeGroup_FY2019,High,Lower-middle,0.7447538521684215
+NoBELONG13,BULLY_VERBAL,IncomeGroup_FY2019,High,Upper-middle,0.30284438370765354
+NoBELONG13,BULLY_VERBAL,IncomeGroup_FY2019,Lower-middle,Upper-middle,0.6935162190403332
+NoBELONG13,BULLY_VERBAL,WB_Region,East Asia & Pacific,Europe & Central Asia,0.7452350758086956
+NoBELONG13,BULLY_VERBAL,WB_Region,East Asia & Pacific,Latin America & Caribbean ,1.0573645403535352
+NoBELONG13,BULLY_VERBAL,WB_Region,East Asia & Pacific,"Middle East, North Africa, Afghanistan & Pakistan",0.6081846511808144
+NoBELONG13,BULLY_VERBAL,WB_Region,East Asia & Pacific,North America,0.7446196341212413
+NoBELONG13,BULLY_VERBAL,WB_Region,Europe & Central Asia,Latin America & Caribbean ,0.46743027602178494
+NoBELONG13,BULLY_VERBAL,WB_Region,Europe & Central Asia,"Middle East, North Africa, Afghanistan & Pakistan",0.7898778488440759
+NoBELONG13,BULLY_VERBAL,WB_Region,Europe & Central Asia,North America,0.5665536017707337
+NoBELONG13,BULLY_VERBAL,WB_Region,Latin America & Caribbean ,"Middle East, North Africa, Afghanistan & Pakistan",1.1383948238232071
+NoBELONG13,BULLY_VERBAL,WB_Region,Latin America & Caribbean ,North America,0.7814728098385996
+NoBELONG13,BULLY_VERBAL,WB_Region,"Middle East, North Africa, Afghanistan & Pakistan",North America,0.9894607928071677
+NoBELONG13,BULLY_THREAT,IncomeGroup_FY2019,High,Lower-middle,0.5310330428815752
+NoBELONG13,BULLY_THREAT,IncomeGroup_FY2019,High,Upper-middle,0.381232558668218
+NoBELONG13,BULLY_THREAT,IncomeGroup_FY2019,Lower-middle,Upper-middle,0.4818648168352175
+NoBELONG13,BULLY_THREAT,WB_Region,East Asia & Pacific,Europe & Central Asia,0.4443607295426598
+NoBELONG13,BULLY_THREAT,WB_Region,East Asia & Pacific,Latin America & Caribbean ,0.7453902401956517
+NoBELONG13,BULLY_THREAT,WB_Region,East Asia & Pacific,"Middle East, North Africa, Afghanistan & Pakistan",0.823147117915127
+NoBELONG13,BULLY_THREAT,WB_Region,East Asia & Pacific,North America,0.7091712880997609
+NoBELONG13,BULLY_THREAT,WB_Region,Europe & Central Asia,Latin America & Caribbean ,0.5424451020639726
+NoBELONG13,BULLY_THREAT,WB_Region,Europe & Central Asia,"Middle East, North Africa, Afghanistan & Pakistan",0.8485579962861347
+NoBELONG13,BULLY_THREAT,WB_Region,Europe & Central Asia,North America,0.5504726047320557
+NoBELONG13,BULLY_THREAT,WB_Region,Latin America & Caribbean ,"Middle East, North Africa, Afghanistan & Pakistan",1.0639817736004502
+NoBELONG13,BULLY_THREAT,WB_Region,Latin America & Caribbean ,North America,0.757450156889026
+NoBELONG13,BULLY_THREAT,WB_Region,"Middle East, North Africa, Afghanistan & Pakistan",North America,1.0312606144604288
+NoBELONG13,BULLY_PHYSICAL,IncomeGroup_FY2019,High,Lower-middle,0.7745515168176715
+NoBELONG13,BULLY_PHYSICAL,IncomeGroup_FY2019,High,Upper-middle,0.39428647216117185
+NoBELONG13,BULLY_PHYSICAL,IncomeGroup_FY2019,Lower-middle,Upper-middle,0.7308577355005704
+NoBELONG13,BULLY_PHYSICAL,WB_Region,East Asia & Pacific,Europe & Central Asia,0.49037000801363
+NoBELONG13,BULLY_PHYSICAL,WB_Region,East Asia & Pacific,Latin America & Caribbean ,0.7566748846896543
+NoBELONG13,BULLY_PHYSICAL,WB_Region,East Asia & Pacific,"Middle East, North Africa, Afghanistan & Pakistan",0.9760935395339766
+NoBELONG13,BULLY_PHYSICAL,WB_Region,East Asia & Pacific,North America,0.7043802083469184
+NoBELONG13,BULLY_PHYSICAL,WB_Region,Europe & Central Asia,Latin America & Caribbean ,0.5864976263297161
+NoBELONG13,BULLY_PHYSICAL,WB_Region,Europe & Central Asia,"Middle East, North Africa, Afghanistan & Pakistan",0.8952416566878022
+NoBELONG13,BULLY_PHYSICAL,WB_Region,Europe & Central Asia,North America,0.5685588847634582
+NoBELONG13,BULLY_PHYSICAL,WB_Region,Latin America & Caribbean ,"Middle East, North Africa, Afghanistan & Pakistan",1.0138881075338237
+NoBELONG13,BULLY_PHYSICAL,WB_Region,Latin America & Caribbean ,North America,0.884768863001559
+NoBELONG13,BULLY_PHYSICAL,WB_Region,"Middle East, North Africa, Afghanistan & Pakistan",North America,0.993375068311405
+NoBELONG13,BULLY_RELATIONAL,IncomeGroup_FY2019,High,Lower-middle,0.7885122382505111
+NoBELONG13,BULLY_RELATIONAL,IncomeGroup_FY2019,High,Upper-middle,0.44074908403019925
+NoBELONG13,BULLY_RELATIONAL,IncomeGroup_FY2019,Lower-middle,Upper-middle,0.5109572373490802
+NoBELONG13,BULLY_RELATIONAL,WB_Region,East Asia & Pacific,Europe & Central Asia,0.8762886309036457
+NoBELONG13,BULLY_RELATIONAL,WB_Region,East Asia & Pacific,Latin America & Caribbean ,0.9616152607534787
+NoBELONG13,BULLY_RELATIONAL,WB_Region,East Asia & Pacific,"Middle East, North Africa, Afghanistan & Pakistan",1.0295923201819042
+NoBELONG13,BULLY_RELATIONAL,WB_Region,East Asia & Pacific,North America,0.7450302840217846
+NoBELONG13,BULLY_RELATIONAL,WB_Region,Europe & Central Asia,Latin America & Caribbean ,0.29939020545134165
+NoBELONG13,BULLY_RELATIONAL,WB_Region,Europe & Central Asia,"Middle East, North Africa, Afghanistan & Pakistan",1.5611861568661032
+NoBELONG13,BULLY_RELATIONAL,WB_Region,Europe & Central Asia,North America,1.0000028075763367
+NoBELONG13,BULLY_RELATIONAL,WB_Region,Latin America & Caribbean ,"Middle East, North Africa, Afghanistan & Pakistan",1.6460353216827812
+NoBELONG13,BULLY_RELATIONAL,WB_Region,Latin America & Caribbean ,North America,1.1013945539090082
+NoBELONG13,BULLY_RELATIONAL,WB_Region,"Middle East, North Africa, Afghanistan & Pakistan",North America,1.4431418573310733

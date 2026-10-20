@@ -1,0 +1,93 @@
+Phase,Analysis,Outcome,Feature,Metric,Value,Direction,Status
+4,Stage1 association,BEINGBULLIED,BELONG,Sign consistency,100.0,Negative,Frozen
+4,Stage1 association,BULLY_PHYSICAL,BELONG,Sign consistency,100.0,Negative,Frozen
+4,Stage1 association,BULLY_RELATIONAL,BELONG,Sign consistency,100.0,Negative,Frozen
+4,Stage1 association,BULLY_THREAT,BELONG,Sign consistency,100.0,Negative,Frozen
+4,Stage1 association,BULLY_VERBAL,BELONG,Sign consistency,100.0,Negative,Frozen
+4,Stage1 association,BEINGBULLIED,DISCLIMA,Sign consistency,100.0,Negative,Frozen
+4,Stage1 association,BULLY_PHYSICAL,DISCLIMA,Sign consistency,100.0,Negative,Frozen
+4,Stage1 association,BULLY_RELATIONAL,DISCLIMA,Sign consistency,100.0,Negative,Frozen
+4,Stage1 association,BULLY_THREAT,DISCLIMA,Sign consistency,100.0,Negative,Frozen
+4,Stage1 association,BULLY_VERBAL,DISCLIMA,Sign consistency,100.0,Negative,Frozen
+4,Stage1 association,BEINGBULLIED,ST004D01T,Sign consistency,100.0,Positive,Frozen
+4,Stage1 association,BULLY_PHYSICAL,ST004D01T,Sign consistency,100.0,Positive,Frozen
+4,Stage1 association,BULLY_RELATIONAL,ST004D01T,Sign consistency,78.66666666666667,Positive,Frozen
+4,Stage1 association,BULLY_THREAT,ST004D01T,Sign consistency,100.0,Positive,Frozen
+4,Stage1 association,BULLY_VERBAL,ST004D01T,Sign consistency,97.33333333333331,Positive,Frozen
+4,Random-effects association,BEINGBULLIED,BELONG,PooledBeta,-0.2655948428384339,Negative,Frozen
+4,Random-effects heterogeneity,BEINGBULLIED,BELONG,I2_Pct,91.97156861023666,,Frozen
+4,Random-effects association,BEINGBULLIED,DISCLIMA,PooledBeta,-0.1414274593091392,Negative,Frozen
+4,Random-effects heterogeneity,BEINGBULLIED,DISCLIMA,I2_Pct,75.82678736981168,,Frozen
+4,Random-effects association,BEINGBULLIED,ST004D01T,PooledBeta,0.2416427576976219,Positive,Frozen
+4,Random-effects heterogeneity,BEINGBULLIED,ST004D01T,I2_Pct,92.26526523983615,,Frozen
+4,Random-effects association,BULLY_VERBAL,BELONG,PooledBeta,-0.6072637847346547,Negative,Frozen
+4,Random-effects heterogeneity,BULLY_VERBAL,BELONG,I2_Pct,92.83007612143128,,Frozen
+4,Random-effects association,BULLY_VERBAL,DISCLIMA,PooledBeta,-0.2626953492689175,Negative,Frozen
+4,Random-effects heterogeneity,BULLY_VERBAL,DISCLIMA,I2_Pct,72.41756686794153,,Frozen
+4,Random-effects association,BULLY_VERBAL,ST004D01T,PooledBeta,0.4665558659467261,Positive,Frozen
+4,Random-effects heterogeneity,BULLY_VERBAL,ST004D01T,I2_Pct,84.67579784537787,,Frozen
+4,Random-effects association,BULLY_THREAT,BELONG,PooledBeta,-0.6284868562413242,Negative,Frozen
+4,Random-effects heterogeneity,BULLY_THREAT,BELONG,I2_Pct,87.29269943050505,,Frozen
+4,Random-effects association,BULLY_THREAT,DISCLIMA,PooledBeta,-0.3006905499955389,Negative,Frozen
+4,Random-effects heterogeneity,BULLY_THREAT,DISCLIMA,I2_Pct,72.81322446317077,,Frozen
+4,Random-effects association,BULLY_THREAT,ST004D01T,PooledBeta,0.8015738601164648,Positive,Frozen
+4,Random-effects heterogeneity,BULLY_THREAT,ST004D01T,I2_Pct,78.91796330401154,,Frozen
+4,Random-effects association,BULLY_PHYSICAL,BELONG,PooledBeta,-0.531732810918907,Negative,Frozen
+4,Random-effects heterogeneity,BULLY_PHYSICAL,BELONG,I2_Pct,78.48040813974767,,Frozen
+4,Random-effects association,BULLY_PHYSICAL,DISCLIMA,PooledBeta,-0.3204210050552177,Negative,Frozen
+4,Random-effects heterogeneity,BULLY_PHYSICAL,DISCLIMA,I2_Pct,66.12303257224859,,Frozen
+4,Random-effects association,BULLY_PHYSICAL,ST004D01T,PooledBeta,0.8179015178395621,Positive,Frozen
+4,Random-effects heterogeneity,BULLY_PHYSICAL,ST004D01T,I2_Pct,78.66523165185913,,Frozen
+4,Random-effects association,BULLY_RELATIONAL,BELONG,PooledBeta,-0.6055141744651423,Negative,Frozen
+4,Random-effects heterogeneity,BULLY_RELATIONAL,BELONG,I2_Pct,86.65186483802746,,Frozen
+4,Random-effects association,BULLY_RELATIONAL,DISCLIMA,PooledBeta,-0.2891304515109422,Negative,Frozen
+4,Random-effects heterogeneity,BULLY_RELATIONAL,DISCLIMA,I2_Pct,64.23325204097293,,Frozen
+4,Random-effects association,BULLY_RELATIONAL,ST004D01T,PooledBeta,0.2576212680023917,Positive,Frozen
+4,Random-effects heterogeneity,BULLY_RELATIONAL,ST004D01T,I2_Pct,90.43587828325312,,Frozen
+4,GDP/region moderation,BEINGBULLIED,BELONG,LogGDP_adjusted_for_Region,-0.0270683781360365,Negative,Robust_FDR
+4,GDP/region moderation,BEINGBULLIED,BELONG,Region_adjusted_for_LogGDP,,,Not_FDR_Significant
+4,GDP/region moderation,BEINGBULLIED,DISCLIMA,LogGDP_adjusted_for_Region,-0.0019756240302231,Negative,Not_FDR_Significant
+4,GDP/region moderation,BEINGBULLIED,DISCLIMA,Region_adjusted_for_LogGDP,,,Not_FDR_Significant
+4,GDP/region moderation,BEINGBULLIED,ST004D01T,LogGDP_adjusted_for_Region,-0.000602931708376,Negative,Not_FDR_Significant
+4,GDP/region moderation,BEINGBULLIED,ST004D01T,Region_adjusted_for_LogGDP,,,Robust_FDR
+4,GDP/region moderation,BULLY_VERBAL,BELONG,LogGDP_adjusted_for_Region,-0.0440591041843837,Negative,Borderline_Sensitivity
+4,GDP/region moderation,BULLY_VERBAL,BELONG,Region_adjusted_for_LogGDP,,,Robust_FDR
+4,GDP/region moderation,BULLY_VERBAL,DISCLIMA,LogGDP_adjusted_for_Region,-0.0240453222657323,Negative,Robust_FDR
+4,GDP/region moderation,BULLY_VERBAL,DISCLIMA,Region_adjusted_for_LogGDP,,,Robust_FDR
+4,GDP/region moderation,BULLY_VERBAL,ST004D01T,LogGDP_adjusted_for_Region,0.0630822758873982,Positive,Robust_FDR
+4,GDP/region moderation,BULLY_VERBAL,ST004D01T,Region_adjusted_for_LogGDP,,,Robust_FDR
+4,GDP/region moderation,BULLY_THREAT,BELONG,LogGDP_adjusted_for_Region,-0.0972191224241408,Negative,Robust_FDR
+4,GDP/region moderation,BULLY_THREAT,BELONG,Region_adjusted_for_LogGDP,,,Not_FDR_Significant
+4,GDP/region moderation,BULLY_THREAT,DISCLIMA,LogGDP_adjusted_for_Region,-0.049311147583456,Negative,Robust_FDR
+4,GDP/region moderation,BULLY_THREAT,DISCLIMA,Region_adjusted_for_LogGDP,,,Robust_FDR
+4,GDP/region moderation,BULLY_THREAT,ST004D01T,LogGDP_adjusted_for_Region,0.0449915144044573,Positive,Not_FDR_Significant
+4,GDP/region moderation,BULLY_THREAT,ST004D01T,Region_adjusted_for_LogGDP,,,Robust_FDR
+4,GDP/region moderation,BULLY_PHYSICAL,BELONG,LogGDP_adjusted_for_Region,-0.0393031302142271,Negative,Robust_FDR
+4,GDP/region moderation,BULLY_PHYSICAL,BELONG,Region_adjusted_for_LogGDP,,,Not_FDR_Significant
+4,GDP/region moderation,BULLY_PHYSICAL,DISCLIMA,LogGDP_adjusted_for_Region,-0.0252247748910711,Negative,Robust_FDR
+4,GDP/region moderation,BULLY_PHYSICAL,DISCLIMA,Region_adjusted_for_LogGDP,,,Robust_FDR
+4,GDP/region moderation,BULLY_PHYSICAL,ST004D01T,LogGDP_adjusted_for_Region,0.1083730427666596,Positive,Robust_FDR
+4,GDP/region moderation,BULLY_PHYSICAL,ST004D01T,Region_adjusted_for_LogGDP,,,Robust_FDR
+4,GDP/region moderation,BULLY_RELATIONAL,BELONG,LogGDP_adjusted_for_Region,-0.0862007859860743,Negative,Robust_FDR
+4,GDP/region moderation,BULLY_RELATIONAL,BELONG,Region_adjusted_for_LogGDP,,,Not_FDR_Significant
+4,GDP/region moderation,BULLY_RELATIONAL,DISCLIMA,LogGDP_adjusted_for_Region,-0.0192153675643004,Negative,Robust_FDR
+4,GDP/region moderation,BULLY_RELATIONAL,DISCLIMA,Region_adjusted_for_LogGDP,,,Robust_FDR
+4,GDP/region moderation,BULLY_RELATIONAL,ST004D01T,LogGDP_adjusted_for_Region,-0.0658473512659495,Negative,Borderline_Sensitivity
+4,GDP/region moderation,BULLY_RELATIONAL,ST004D01T,Region_adjusted_for_LogGDP,,,Robust_FDR
+4,Gini incremental moderation,BEINGBULLIED,BELONG,Gini | GDP + region,-0.0109186847487819,Negative,No_Independent_FDR_Evidence
+4,Gini incremental moderation,BEINGBULLIED,DISCLIMA,Gini | GDP + region,0.0075832623136084,Positive,No_Independent_FDR_Evidence
+4,Gini incremental moderation,BEINGBULLIED,ST004D01T,Gini | GDP + region,0.0282569203987968,Positive,No_Independent_FDR_Evidence
+4,Gini incremental moderation,BULLY_VERBAL,BELONG,Gini | GDP + region,0.0137453425487466,Positive,No_Independent_FDR_Evidence
+4,Gini incremental moderation,BULLY_VERBAL,DISCLIMA,Gini | GDP + region,0.0393955334504596,Positive,No_Independent_FDR_Evidence
+4,Gini incremental moderation,BULLY_VERBAL,ST004D01T,Gini | GDP + region,0.0463765373539898,Positive,No_Independent_FDR_Evidence
+4,Gini incremental moderation,BULLY_THREAT,BELONG,Gini | GDP + region,0.0226139479035355,Positive,No_Independent_FDR_Evidence
+4,Gini incremental moderation,BULLY_THREAT,DISCLIMA,Gini | GDP + region,0.0271945096556938,Positive,No_Independent_FDR_Evidence
+4,Gini incremental moderation,BULLY_THREAT,ST004D01T,Gini | GDP + region,-0.0328684484440769,Negative,No_Independent_FDR_Evidence
+4,Gini incremental moderation,BULLY_PHYSICAL,BELONG,Gini | GDP + region,-0.0197545080839804,Negative,No_Independent_FDR_Evidence
+4,Gini incremental moderation,BULLY_PHYSICAL,DISCLIMA,Gini | GDP + region,0.0188305152293116,Positive,No_Independent_FDR_Evidence
+4,Gini incremental moderation,BULLY_PHYSICAL,ST004D01T,Gini | GDP + region,-0.0018489735187628,Negative,No_Independent_FDR_Evidence
+4,Gini incremental moderation,BULLY_RELATIONAL,BELONG,Gini | GDP + region,0.0236021418401961,Positive,No_Independent_FDR_Evidence
+4,Gini incremental moderation,BULLY_RELATIONAL,DISCLIMA,Gini | GDP + region,0.0307943172773427,Positive,No_Independent_FDR_Evidence
+4,Gini incremental moderation,BULLY_RELATIONAL,ST004D01T,Gini | GDP + region,0.0957117142161852,Positive,No_Independent_FDR_Evidence
+4,Indirect association,BEINGBULLIED,DISCLIMA -> BELONG,PooledIndirect,-0.0359022069538425,Negative,Exploratory_Frozen
+4,Indirect association,BEINGBULLIED,DISCLIMA -> BELONG,SystemsBootstrapCIEntirelyBelowZero,74.0,Negative,Exploratory_Frozen

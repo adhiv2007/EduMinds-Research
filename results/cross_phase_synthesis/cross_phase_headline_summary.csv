@@ -1,0 +1,5 @@
+Phase,Headline,Evidence,InterpretationStatus
+1,Cross-system predictor architecture is strongly conserved.,Full14 mean cosine range 0.936–0.955; all Aitchison permutation p=.0001.,Primary
+2,Conserved architecture contains structured continuous international heterogeneity.,CLR-PCA is multidimensional; cross-outcome distance structures differ; macro context and subtype reweighting explain portions of this heterogeneity.,Primary + exploratory clustering
+3,"The original predictor set is a stable backbone, not an exhaustive predictor set.",Expanded predictors improve prediction while Core14/Core17 renormalized architecture remains near-identical.,Primary
+4,Dominant associations are directionally conserved but their magnitudes vary systematically across international context.,20/30 GDP/region moderator tests robust after FDR and sensitivity analysis; indirect association negative in 74/74 systems.,Primary moderation; exploratory noncausal indirect association

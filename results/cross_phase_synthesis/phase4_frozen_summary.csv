@@ -1,0 +1,13 @@
+Finding,Value
+Stage1 models,374.0
+Focal coefficients,1122.0
+Robust GDP/region moderation tests,20.0
+Borderline GDP/region moderation tests,2.0
+Independent Gini FDR findings,0.0
+Indirect-association systems,74.0
+Indirect point estimate negative,74.0
+Indirect bootstrap CI below zero,74.0
+Pooled indirect association,-0.0359022069538425
+Pooled indirect CI low,-0.0382765577704182
+Pooled indirect CI high,-0.0335278561372668
+Indirect I2,78.96413750901795

@@ -1,0 +1,13 @@
+Metric,Value
+Systems,74.0
+Point indirect < 0,74.0
+Bootstrap CI entirely < 0,74.0
+Median indirect,-0.03522785542162546
+Mean indirect,-0.03643542514946654
+Minimum indirect,-0.06650483642927217
+Maximum indirect,-0.017426106809926845
+Median bootstrap SE,0.004836238969466327
+Minimum bootstrap negative proportion,0.999
+Median bootstrap negative proportion,1.0
+Maximum point reproduction error,6.661338147750939e-16
+Maximum bootstrap decomposition error,6.439293542825908e-15

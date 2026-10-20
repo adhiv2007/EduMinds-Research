@@ -1,0 +1,48 @@
+Concept,Construct,Level,Representation,RawColumns,FrozenCore14,ParentModule
+ST004D01T,Gender,Individual,SingleColumn,ST004D01T,True,False
+AGE,Age,Individual,SingleColumn,AGE,True,False
+GRADE,Grade,Individual,SingleColumn,GRADE,False,False
+BSMJ,Expected occupational status,Individual,SingleColumn,BSMJ,False,False
+JOYREAD,Joy of reading,Individual,SingleColumn,JOYREAD,True,False
+SCREADCOMP,Reading self-concept: competence,Individual,SingleColumn,SCREADCOMP,False,False
+SCREADDIFF,Reading self-concept: difficulty,Individual,SingleColumn,SCREADDIFF,False,False
+COMPETE,Competitiveness,Individual,SingleColumn,COMPETE,False,False
+WORKMAST,Work mastery orientation,Individual,SingleColumn,WORKMAST,False,False
+GFOFAIL,General fear of failure,Individual,SingleColumn,GFOFAIL,False,False
+EUDMO,Sense of meaning in life / eudaimonia,Individual,SingleColumn,EUDMO,False,False
+RESILIENCE,Resilience,Individual,SingleColumn,RESILIENCE,False,False
+MASTGOAL,Mastery goal orientation,Individual,SingleColumn,MASTGOAL,True,False
+ST185Q01HA,Meaning/purpose item,Individual,SingleColumn,ST185Q01HA,False,False
+ST184Q01HA,Growth mindset item,Individual,SingleColumn,ST184Q01HA,False,False
+SWBP,Subjective well-being,Individual,SingleColumn,SWBP,False,False
+ST207Q01HA,Official wording to verify,Individual,SingleColumn,ST207Q01HA,False,False
+ST207Q02HA,Official wording to verify,Individual,SingleColumn,ST207Q02HA,False,False
+ST207Q03HA,Official wording to verify,Individual,SingleColumn,ST207Q03HA,False,False
+ST207Q04HA,Official wording to verify,Individual,SingleColumn,ST207Q04HA,False,False
+ST207Q05HA,Official wording to verify,Individual,SingleColumn,ST207Q05HA,False,False
+REPEAT,Grade repetition,Proximal,SingleColumn,REPEAT,False,False
+UNDREM,Undermining / related index,Proximal,SingleColumn,UNDREM,True,False
+METASUM,Metacognition summary,Proximal,SingleColumn,METASUM,True,False
+METASPAM,Metacognition / spam-related reading strategy index,Proximal,SingleColumn,METASPAM,True,False
+EMOSUPS,Emotional support,Microsystem,SingleColumn,EMOSUPS,False,False
+DURECEC,Duration of early childhood education/care,Microsystem,SingleColumn,DURECEC,False,False
+BELONG,Sense of belonging at school,Microsystem,SingleColumn,BELONG,True,False
+PERCOMP,Perception of competitiveness,Microsystem,SingleColumn,PERCOMP,False,False
+PERCOOP,Perception of cooperation,Microsystem,SingleColumn,PERCOOP,False,False
+ATTLNACT,Attitude toward school / learning activities,Microsystem,SingleColumn,ATTLNACT,True,False
+DISCLIMA,Disciplinary climate,Microsystem,SingleColumn,DISCLIMA,True,False
+TEACHSUP,Teacher support,Microsystem,SingleColumn,TEACHSUP,False,False
+DIRINS,Teacher-directed instruction,Microsystem,SingleColumn,DIRINS,False,False
+PERFEED,Perceived feedback,Microsystem,SingleColumn,PERFEED,False,False
+STIMREAD,Teacher stimulation of reading engagement,Microsystem,SingleColumn,STIMREAD,True,False
+ADAPTIVITY,Adaptive instruction,Microsystem,SingleColumn,ADAPTIVITY,True,False
+TEACHINT,Teacher interest / enthusiasm,Microsystem,SingleColumn,TEACHINT,False,False
+ST206Q01HA,Official wording to verify,Microsystem,SingleColumn,ST206Q01HA,False,False
+PA006Q09TA,Official wording to verify,Microsystem,SingleColumn,PA006Q09TA,False,True
+ESCS,"Economic, social and cultural status",Macro/Exosystem,SingleColumn,ESCS,True,False
+EDUSHORT,Educational staff shortage,Macro/Exosystem,SingleColumn,EDUSHORT,True,False
+RATCMP1,Computer-related school resource ratio 1,Macro/Exosystem,SingleColumn,RATCMP1,False,False
+RATCMP2,Computer-related school resource ratio 2,Macro/Exosystem,SingleColumn,RATCMP2,False,False
+PV_READ,Reading achievement,Individual,10 matched plausible values,PV1READ|PV2READ|PV3READ|PV4READ|PV5READ|PV6READ|PV7READ|PV8READ|PV9READ|PV10READ,False,False
+PV_MATH,Mathematics achievement,Individual,10 matched plausible values,PV1MATH|PV2MATH|PV3MATH|PV4MATH|PV5MATH|PV6MATH|PV7MATH|PV8MATH|PV9MATH|PV10MATH,False,False
+PV_SCIE,Science achievement,Individual,10 matched plausible values,PV1SCIE|PV2SCIE|PV3SCIE|PV4SCIE|PV5SCIE|PV6SCIE|PV7SCIE|PV8SCIE|PV9SCIE|PV10SCIE,False,False

@@ -1,0 +1,356 @@
+{
+  "manifest": {
+    "generated_utc": "2026-09-06T21:31:04.942906+00:00",
+    "status": "ANALYTICAL METHODOLOGY LOCKED",
+    "purpose": "Reproducibility record for the PISA 2018 cross-system bullying predictor analysis."
+  },
+  "environment": {
+    "python_version": "3.11.9",
+    "python_full_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "python_executable": "c:\\Users\\adhiv\\OneDrive\\Desktop\\EduMindsResearch\\EduMinds-Research\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "operating_system": "Windows",
+    "os_release": "10",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "cpu_count": 12
+  },
+  "git": {
+    "repository_root": "C:/Users/adhiv/OneDrive/Desktop/EduMindsResearch/EduMinds-Research",
+    "branch": "main",
+    "commit": "c9563a288e91c47ef0eb03976db511007a436218",
+    "working_tree_clean": false,
+    "status_saved_to": "git_status.txt",
+    "diff_saved_to": "git_diff.patch"
+  },
+  "dataset": {
+    "dataset": "Programme for International Student Assessment (PISA) 2018",
+    "student_file_raw_rows": 612004,
+    "student_file_raw_columns": 1119,
+    "school_file_raw_rows": 21903,
+    "school_file_raw_columns": 197,
+    "raw_CNT_codes": 80,
+    "official_PISA_2018_participants": 79,
+    "main_analysis_system_universe": 78,
+    "excluded_subregional_codes": [
+      "QMR",
+      "QRT"
+    ],
+    "notes": [
+      "QMR and QRT were excluded because the national Russian Federation entry was retained.",
+      "QAZ was retained as the Baku/Azerbaijan PISA entity represented in the supplied data.",
+      "QCI was retained as the B-S-J-Z (China) PISA entity represented in the supplied data.",
+      "CYP was not present in the supplied student dataset and was not artificially restored.",
+      "VNM contained the achievement plausible-value columns but no usable achievement PV observations; it was therefore retained in non-achievement analyses and excluded only from achievement sensitivity models."
+    ]
+  },
+  "student_school_merge": {
+    "keys": [
+      "CNT",
+      "CNTSCHID"
+    ],
+    "relationship": "many-to-one student-to-school",
+    "join": "left",
+    "duplicate_school_key_check": true,
+    "pandas_merge_validation": "many_to_one",
+    "student_row_preservation_asserted": true,
+    "school_match_indicator_preserved": true
+  },
+  "outcomes": {
+    "BEINGBULLIED": {
+      "type": "continuous",
+      "definition": "Official supplied PISA BEINGBULLIED bullying index; retained unchanged.",
+      "primary_systems": 74,
+      "special_missing_codes": [
+        95,
+        97,
+        98,
+        99
+      ]
+    },
+    "BULLY_VERBAL": {
+      "type": "binary",
+      "source": "ST038Q04NA",
+      "behavior": "Made fun of.",
+      "primary_systems": 75
+    },
+    "BULLY_THREAT": {
+      "type": "binary",
+      "source": "ST038Q05NA",
+      "behavior": "Threatened.",
+      "note": "Retained as separate behavior-specific subtype; physical modality not assumed.",
+      "primary_systems": 75
+    },
+    "BULLY_PHYSICAL": {
+      "type": "binary",
+      "sources": [
+        "ST038Q06NA",
+        "ST038Q07NA"
+      ],
+      "behavior": "Belongings taken/destroyed OR hit/pushed.",
+      "combination_rule": "Any observed positive -> 1; both observed and both negative -> 0; otherwise missing.",
+      "primary_systems": 75
+    },
+    "BULLY_RELATIONAL": {
+      "type": "binary",
+      "source": "ST038Q08NA",
+      "behavior": "Nasty rumours.",
+      "primary_systems": 75
+    },
+    "ST038_binary_recoding": {
+      "codes_1_2": 0,
+      "codes_3_4": 1,
+      "special_missing_codes_5_to_9": "NaN"
+    },
+    "ST038Q03NA_used_in_behavior_specific_outcomes": false
+  },
+  "predictors": {
+    "primary_predictors": [
+      "ADAPTIVITY",
+      "AGE",
+      "ATTLNACT",
+      "BELONG",
+      "DISCLIMA",
+      "EDUSHORT",
+      "ESCS",
+      "JOYREAD",
+      "MASTGOAL",
+      "METASPAM",
+      "METASUM",
+      "ST004D01T",
+      "STIMREAD",
+      "UNDREM"
+    ],
+    "n_primary_predictors": 14,
+    "selection_rule": "Common predictor set usable in every included primary system with maximum system-level missingness <=50%.",
+    "primary_missingness_threshold_pct": 50,
+    "scaling_for_xgboost": false,
+    "imputation_for_xgboost": false,
+    "xgboost_native_missing_value_handling": true,
+    "gender_variable": "ST004D01T",
+    "gender_recode": {
+      "female": 0,
+      "male": 1,
+      "original_code_1": 0,
+      "original_code_2": 1
+    },
+    "school_level_predictor_in_primary_set": "EDUSHORT"
+  },
+  "survey_design": {
+    "final_student_weight": "W_FSTUWT",
+    "replicate_weights": "W_FSTURWT1 ... W_FSTURWT80",
+    "n_replicate_weights": 80,
+    "fay_factor": 0.5,
+    "fay_variance_multiplier": 0.05,
+    "training_weight_normalization": "Within each training fold, positive finite W_FSTUWT values were divided by their mean.",
+    "model_training_weighted": true,
+    "performance_metrics_weighted": true,
+    "shap_aggregation_weighted": true,
+    "replicate_weight_use": "Design-based standard errors and 95% confidence intervals for descriptive outcome estimates.",
+    "replicate_weight_model_refitting": false,
+    "model_uncertainty_policy": "Cross-validated model performance and SHAP attribution are not presented with design-based replicate-weight confidence intervals, because valid design-based uncertainty for learned models would require refitting the learning procedure under replicate weights."
+  },
+  "cross_validation": {
+    "folds": 5,
+    "group_variable": "CNTSCHID",
+    "regression_splitter": "GroupKFold",
+    "classification_splitter": "StratifiedGroupKFold",
+    "classification_shuffle": true,
+    "classification_random_state": 42,
+    "held_out_unit": "schools",
+    "performance_evaluated_out_of_fold": true,
+    "shap_evaluated_out_of_fold": true
+  },
+  "xgboost": {
+    "algorithm": "XGBoost",
+    "reference_parameters": {
+      "n_estimators": 300,
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "min_child_weight": 5,
+      "reg_lambda": 4.0,
+      "reg_alpha": 0.6,
+      "gamma": 0.0,
+      "random_state": 42,
+      "n_jobs": -1,
+      "tree_method": "hist"
+    },
+    "regression_objective": "reg:squarederror",
+    "classification_objective": "binary:logistic",
+    "classification_eval_metric": "logloss",
+    "class_balancing": false,
+    "scale_pos_weight": false,
+    "reference_model_policy": "A common reference specification was used across education systems and outcomes; no per-system hyperparameter optimization.",
+    "parameter_interpretation": "Reference specification rather than retrospectively selected best-performing specification."
+  },
+  "performance": {
+    "BEINGBULLIED_metrics": [
+      "survey-weighted RMSE",
+      "survey-weighted MAE",
+      "survey-weighted R2"
+    ],
+    "binary_metrics": [
+      "survey-weighted ROC-AUC",
+      "survey-weighted PR-AUC"
+    ],
+    "regression_baseline": "Weighted training-fold outcome mean.",
+    "classification_ROC_baseline": 0.5,
+    "classification_PR_baseline": "Survey-weighted outcome prevalence.",
+    "fold_stability_evaluated": true
+  },
+  "shap_attribution": {
+    "method": "exact native XGBoost TreeSHAP",
+    "implementation": "Booster.predict(DMatrix, pred_contribs=True, approx_contribs=False)",
+    "data_used": "held-out OOF observations only",
+    "system_level_importance": "W_FSTUWT-weighted mean absolute SHAP.",
+    "normalization": "Feature importance shares normalized to sum to 1 within each education-system/outcome model.",
+    "fold_rank_stability_evaluated": true,
+    "signed_SHAP_primary_ranking": false,
+    "causal_interpretation": false
+  },
+  "cross_system_architecture": {
+    "profile": "Complete normalized SHAP importance vector.",
+    "primary_similarity": "cosine similarity",
+    "rank_similarity": "Spearman rank correlation",
+    "top_k_set_similarity": [
+      "Top-5 Jaccard",
+      "Top-7 Jaccard"
+    ],
+    "international_consensus_profile": "Equal-weight mean of normalized system-level SHAP importance shares.",
+    "system_heterogeneity": "Continuous deviation from international consensus.",
+    "hard_clustering": false,
+    "reason_clustering_omitted": "Results were better characterized by a conserved international architecture with continuous system-specific reweighting than by clearly separated discrete groups."
+  },
+  "architecture_permutation_null": {
+    "performed": true,
+    "n_permutations": 10000,
+    "random_seed": 42,
+    "null_unit": "education-system attribution vector",
+    "null_operation": "Independently permute predictor labels within each system while preserving that system's exact set of normalized SHAP shares.",
+    "preserves": [
+      "number of predictors",
+      "system-specific attribution concentration",
+      "system-specific attribution magnitudes",
+      "system-vector norm"
+    ],
+    "destroys": "cross-system agreement about predictor identity",
+    "tested_profiles": [
+      "Full 14-predictor architecture",
+      "13-predictor architecture after BELONG removal"
+    ],
+    "p_value_correction": "(1 + number of null statistics >= observed) / (number of permutations + 1)"
+  },
+  "achievement_plausible_values": {
+    "role": "supplementary sensitivity analysis",
+    "n_pv_runs": 10,
+    "per_run_achievement_predictors": "PViREAD, PViMATH, PViSCIE for i=1,...,10",
+    "student_level_PV_averaging": false,
+    "matched_PV_rule": "PV1READ/PV1MATH/PV1SCIE together, ... through PV10READ/PV10MATH/PV10SCIE together.",
+    "conceptual_domains": [
+      "READ_ACHIEVEMENT",
+      "MATH_ACHIEVEMENT",
+      "SCIENCE_ACHIEVEMENT"
+    ],
+    "predictors_per_augmented_model": 17,
+    "BEINGBULLIED_systems": 73,
+    "subtype_systems": 74,
+    "excluded_for_achievement": [
+      "VNM"
+    ],
+    "expected_models": 3690,
+    "completed_models": 3690,
+    "PV_variability_interpretation": "Across-PV variability was used as plausible-value sensitivity, not as a sampling standard error."
+  },
+  "missingness_robustness": {
+    "primary_threshold_pct": 50,
+    "strict_predictor_threshold_pct": 40,
+    "strict_40pct_predictors_retained": 12,
+    "strict_40pct_predictors_removed": [
+      "BELONG",
+      "MASTGOAL"
+    ],
+    "strict_40pct_role": "Extreme predictor-universe sensitivity only; not used to redefine the primary analysis.",
+    "preferred_low_missingness_sensitivity": "Keep all 14 frozen predictors and exclude systems where any primary predictor exceeds 40% missingness.",
+    "systems_excluded_under_40pct_system_rule": [
+      "DOM",
+      "PAN"
+    ],
+    "low_missingness_architecture_recomputed": false,
+    "reason": "The sensitivity summarized the already-frozen 14-predictor models after restricting systems; no refitting was required.",
+    "missingness_vs_importance_diagnostic": true
+  },
+  "outcome_coverage_robustness": {
+    "primary_policy": "Systems with any valid outcome data were retained in the primary analysis.",
+    "sensitivity_threshold_pct": 50,
+    "performed": true,
+    "notable_low_coverage_systems": [
+      "DOM",
+      "PAN",
+      "MAR",
+      "PER",
+      "DEU"
+    ]
+  },
+  "BELONG_removed_sensitivity": {
+    "performed": true,
+    "purpose": "Determine whether international architectural similarity was solely caused by BELONG dominance.",
+    "remaining_predictors": 13,
+    "renormalized_after_removal": true
+  },
+  "hyperparameter_robustness": {
+    "performed": true,
+    "alternative_specs": [
+      "shallower",
+      "deeper",
+      "more_regularized"
+    ],
+    "reference_model_replaced_after_robustness": false
+  },
+  "conventional_benchmark": {
+    "performed": true,
+    "same_primary_predictors": true,
+    "same_students_and_outcomes": true,
+    "same_school_grouped_CV": true,
+    "same_final_student_weight": "W_FSTUWT",
+    "BEINGBULLIED_model": "weighted multiple linear regression",
+    "binary_model": "weighted unregularized additive logistic regression",
+    "median_imputation": "fit within each training fold only",
+    "standardization": "fit within each training fold only",
+    "primary_interpretation": "XGBoost was not assumed or shown to universally outperform conventional additive models. Its role is a flexible framework for nonlinear predictor-attribution profiling across systems."
+  },
+  "directional_SHAP": {
+    "performed": true,
+    "focal_features": [
+      "BELONG",
+      "DISCLIMA",
+      "ST004D01T"
+    ],
+    "continuous_feature_contrast": "W_FSTUWT-weighted mean signed SHAP among observations in the upper weighted quartile minus the lower weighted quartile of the predictor.",
+    "gender_contrast": "W_FSTUWT-weighted mean signed SHAP for male minus female.",
+    "gender_coding": {
+      "female": 0,
+      "male": 1
+    },
+    "binary_SHAP_scale": "raw XGBoost margin / log-odds",
+    "BEINGBULLIED_SHAP_scale": "continuous model-output scale",
+    "directional_interpretation": "model-based predictive association only",
+    "causal_interpretation": false,
+    "expected_models": 374,
+    "completed_models": 374,
+    "expected_directional_rows": 1122,
+    "completed_directional_rows": 1122
+  },
+  "reproducibility": {
+    "global_random_seed": 42,
+    "package_versions_saved": true,
+    "pip_freeze_saved": true,
+    "git_commit_saved": true,
+    "git_status_saved": true,
+    "git_diff_saved": true,
+    "analytical_result_hashes_saved": true,
+    "source_file_hashes_saved": true,
+    "expected_output_QA_saved": true
+  }
+}

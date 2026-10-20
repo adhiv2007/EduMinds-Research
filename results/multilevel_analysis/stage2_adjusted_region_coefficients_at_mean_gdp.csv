@@ -1,0 +1,76 @@
+Outcome,Term,Region,N_Systems,AdjustedCoefficient_AtMeanGDP,ReferenceRegion
+BEINGBULLIED,BELONG,Europe & Central Asia,41,-0.263864436524295,Europe & Central Asia
+BEINGBULLIED,BELONG,East Asia & Pacific,12,-0.25238529530134457,Europe & Central Asia
+BEINGBULLIED,BELONG,Latin America & Caribbean ,10,-0.2790756696374457,Europe & Central Asia
+BEINGBULLIED,BELONG,"Middle East, North Africa, Afghanistan & Pakistan",6,-0.28827727255769975,Europe & Central Asia
+BEINGBULLIED,BELONG,North America,2,-0.31017144335758295,Europe & Central Asia
+BEINGBULLIED,DISCLIMA,Europe & Central Asia,41,-0.1393546137494802,Europe & Central Asia
+BEINGBULLIED,DISCLIMA,East Asia & Pacific,12,-0.15620511758473088,Europe & Central Asia
+BEINGBULLIED,DISCLIMA,Latin America & Caribbean ,10,-0.15043097110307319,Europe & Central Asia
+BEINGBULLIED,DISCLIMA,"Middle East, North Africa, Afghanistan & Pakistan",6,-0.11842379549918529,Europe & Central Asia
+BEINGBULLIED,DISCLIMA,North America,2,-0.1530103467614345,Europe & Central Asia
+BEINGBULLIED,ST004D01T,Europe & Central Asia,41,0.201034314531282,Europe & Central Asia
+BEINGBULLIED,ST004D01T,East Asia & Pacific,12,0.3049623511722255,Europe & Central Asia
+BEINGBULLIED,ST004D01T,Latin America & Caribbean ,10,0.21550468657615632,Europe & Central Asia
+BEINGBULLIED,ST004D01T,"Middle East, North Africa, Afghanistan & Pakistan",6,0.4286340628044282,Europe & Central Asia
+BEINGBULLIED,ST004D01T,North America,2,0.1512568458870352,Europe & Central Asia
+BULLY_VERBAL,BELONG,Europe & Central Asia,41,-0.6692705456204204,Europe & Central Asia
+BULLY_VERBAL,BELONG,East Asia & Pacific,13,-0.43958855072659714,Europe & Central Asia
+BULLY_VERBAL,BELONG,Latin America & Caribbean ,10,-0.586596812659652,Europe & Central Asia
+BULLY_VERBAL,BELONG,"Middle East, North Africa, Afghanistan & Pakistan",6,-0.5251501401222454,Europe & Central Asia
+BULLY_VERBAL,BELONG,North America,2,-0.7387043370191096,Europe & Central Asia
+BULLY_VERBAL,DISCLIMA,Europe & Central Asia,41,-0.2728866467908871,Europe & Central Asia
+BULLY_VERBAL,DISCLIMA,East Asia & Pacific,13,-0.2535833394448841,Europe & Central Asia
+BULLY_VERBAL,DISCLIMA,Latin America & Caribbean ,10,-0.30804541564214927,Europe & Central Asia
+BULLY_VERBAL,DISCLIMA,"Middle East, North Africa, Afghanistan & Pakistan",6,-0.1655943081658049,Europe & Central Asia
+BULLY_VERBAL,DISCLIMA,North America,2,-0.2513547918877181,Europe & Central Asia
+BULLY_VERBAL,ST004D01T,Europe & Central Asia,41,0.3986708463225648,Europe & Central Asia
+BULLY_VERBAL,ST004D01T,East Asia & Pacific,13,0.5829185150774656,Europe & Central Asia
+BULLY_VERBAL,ST004D01T,Latin America & Caribbean ,10,0.3653620774873962,Europe & Central Asia
+BULLY_VERBAL,ST004D01T,"Middle East, North Africa, Afghanistan & Pakistan",6,0.7058452100016901,Europe & Central Asia
+BULLY_VERBAL,ST004D01T,North America,2,0.2934209597488246,Europe & Central Asia
+BULLY_THREAT,BELONG,Europe & Central Asia,41,-0.6484929294056174,Europe & Central Asia
+BULLY_THREAT,BELONG,East Asia & Pacific,13,-0.6318939290953224,Europe & Central Asia
+BULLY_THREAT,BELONG,Latin America & Caribbean ,10,-0.5462708563768677,Europe & Central Asia
+BULLY_THREAT,BELONG,"Middle East, North Africa, Afghanistan & Pakistan",6,-0.6095679369815032,Europe & Central Asia
+BULLY_THREAT,BELONG,North America,2,-0.609879226668988,Europe & Central Asia
+BULLY_THREAT,DISCLIMA,Europe & Central Asia,41,-0.3129959325533029,Europe & Central Asia
+BULLY_THREAT,DISCLIMA,East Asia & Pacific,13,-0.31696549688541986,Europe & Central Asia
+BULLY_THREAT,DISCLIMA,Latin America & Caribbean ,10,-0.3272144842961025,Europe & Central Asia
+BULLY_THREAT,DISCLIMA,"Middle East, North Africa, Afghanistan & Pakistan",6,-0.1820338974558421,Europe & Central Asia
+BULLY_THREAT,DISCLIMA,North America,2,-0.34154786833336376,Europe & Central Asia
+BULLY_THREAT,ST004D01T,Europe & Central Asia,41,0.8163144575269327,Europe & Central Asia
+BULLY_THREAT,ST004D01T,East Asia & Pacific,13,0.7470316008666836,Europe & Central Asia
+BULLY_THREAT,ST004D01T,Latin America & Caribbean ,10,0.6725514552801124,Europe & Central Asia
+BULLY_THREAT,ST004D01T,"Middle East, North Africa, Afghanistan & Pakistan",6,1.0644721657313854,Europe & Central Asia
+BULLY_THREAT,ST004D01T,North America,2,0.6085046436089121,Europe & Central Asia
+BULLY_PHYSICAL,BELONG,Europe & Central Asia,41,-0.5456775530562591,Europe & Central Asia
+BULLY_PHYSICAL,BELONG,East Asia & Pacific,13,-0.4861037874258909,Europe & Central Asia
+BULLY_PHYSICAL,BELONG,Latin America & Caribbean ,10,-0.490086142313736,Europe & Central Asia
+BULLY_PHYSICAL,BELONG,"Middle East, North Africa, Afghanistan & Pakistan",6,-0.5877792727778203,Europe & Central Asia
+BULLY_PHYSICAL,BELONG,North America,2,-0.6193164287793769,Europe & Central Asia
+BULLY_PHYSICAL,DISCLIMA,Europe & Central Asia,41,-0.3228124951926544,Europe & Central Asia
+BULLY_PHYSICAL,DISCLIMA,East Asia & Pacific,13,-0.34417239674061745,Europe & Central Asia
+BULLY_PHYSICAL,DISCLIMA,Latin America & Caribbean ,10,-0.35279241584485005,Europe & Central Asia
+BULLY_PHYSICAL,DISCLIMA,"Middle East, North Africa, Afghanistan & Pakistan",6,-0.20880187875177172,Europe & Central Asia
+BULLY_PHYSICAL,DISCLIMA,North America,2,-0.36589177141096213,Europe & Central Asia
+BULLY_PHYSICAL,ST004D01T,Europe & Central Asia,41,0.8134368874299582,Europe & Central Asia
+BULLY_PHYSICAL,ST004D01T,East Asia & Pacific,13,0.8060417491825198,Europe & Central Asia
+BULLY_PHYSICAL,ST004D01T,Latin America & Caribbean ,10,0.7640119300057381,Europe & Central Asia
+BULLY_PHYSICAL,ST004D01T,"Middle East, North Africa, Afghanistan & Pakistan",6,1.0471462709148036,Europe & Central Asia
+BULLY_PHYSICAL,ST004D01T,North America,2,0.6812566796085231,Europe & Central Asia
+BULLY_RELATIONAL,BELONG,Europe & Central Asia,41,-0.6228158891932952,Europe & Central Asia
+BULLY_RELATIONAL,BELONG,East Asia & Pacific,13,-0.6161164910781716,Europe & Central Asia
+BULLY_RELATIONAL,BELONG,Latin America & Caribbean ,10,-0.5068746012665339,Europe & Central Asia
+BULLY_RELATIONAL,BELONG,"Middle East, North Africa, Afghanistan & Pakistan",6,-0.5514091871015999,Europe & Central Asia
+BULLY_RELATIONAL,BELONG,North America,2,-0.6184057922525078,Europe & Central Asia
+BULLY_RELATIONAL,DISCLIMA,Europe & Central Asia,41,-0.3000025591008959,Europe & Central Asia
+BULLY_RELATIONAL,DISCLIMA,East Asia & Pacific,13,-0.2897102710024055,Europe & Central Asia
+BULLY_RELATIONAL,DISCLIMA,Latin America & Caribbean ,10,-0.2884471041215584,Europe & Central Asia
+BULLY_RELATIONAL,DISCLIMA,"Middle East, North Africa, Afghanistan & Pakistan",6,-0.2042818473103662,Europe & Central Asia
+BULLY_RELATIONAL,DISCLIMA,North America,2,-0.365840821695527,Europe & Central Asia
+BULLY_RELATIONAL,ST004D01T,Europe & Central Asia,41,0.1676878730885486,Europe & Central Asia
+BULLY_RELATIONAL,ST004D01T,East Asia & Pacific,13,0.3945053366743559,Europe & Central Asia
+BULLY_RELATIONAL,ST004D01T,Latin America & Caribbean ,10,0.1192497960299369,Europe & Central Asia
+BULLY_RELATIONAL,ST004D01T,"Middle East, North Africa, Afghanistan & Pakistan",6,0.7585342112314494,Europe & Central Asia
+BULLY_RELATIONAL,ST004D01T,North America,2,-0.08408234535164599,Europe & Central Asia

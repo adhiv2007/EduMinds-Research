@@ -1,0 +1,1 @@
+Country,Outcome,N_folds,Mean_ROC_AUC,Median_ROC_AUC,Min_ROC_AUC,Max_ROC_AUC,SD_ROC_AUC,N_folds_ROC_above_chance,N_folds_ROC_above_055,Mean_PR_AUC,Min_PR_AUC,Mean_PR_improvement,N_folds_PR_beating_baseline
